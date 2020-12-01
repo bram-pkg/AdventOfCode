@@ -1,6 +1,6 @@
 fun runSolution(day: Int, part: Int, callback: () -> Unit) {
     println("Day $day, part $part")
-    callback.invoke()
+    callback()
     print("\n")
 }
 
