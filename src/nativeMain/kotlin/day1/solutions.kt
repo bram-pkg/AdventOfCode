@@ -4,7 +4,7 @@ fun part1() {
     data.forEach {
         val min = target - it
         if (data.contains(min)) {
-            println("\tSolution: ${it * min}")
+            println("Solution: ${it * min}")
             return@part1
         }
     }
