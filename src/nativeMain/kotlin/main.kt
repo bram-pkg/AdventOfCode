@@ -15,5 +15,6 @@ fun main() {
 //    runSolution(2, 1) { day2.part1() }
 //    runSolution(2, 2) { day2.part2() }
 
-    runSolution(3, 1) { day3.part1() }
+//    runSolution(3, 1) { day3.part1() }
+    runSolution(3, 2) { day3.part2() }
 }
